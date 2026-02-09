@@ -1,9 +1,3 @@
 streamlit
-pdfplumber
 PyPDF2
-os
-re
-shutil
-datetime
-zipfile
-tempfile
+pdfplumber
