@@ -9,7 +9,7 @@ import tempfile
 
 st.set_page_config(page_title="Tenant PDF Splitter", layout="centered")
 
-st.title("Tenant PDF Splitter")
+st.title("JSDS Tenant PDF Splitter")
 
 st.write("Upload bulk PDFs and download separated tenant files.")
 
