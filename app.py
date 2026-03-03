@@ -116,7 +116,7 @@ if st.button("Process PDFs") and statements and invoices and receipts:
 
         for key, docs in tenants.items():
             writer = PdfWriter()
-            for doc in ["statement","invoice","receipt","water"]:
+            for doc in ["statement","invoice","water","receipt"]:
                 for p in docs.get(doc, []):
                     writer.add_page(p)
 
