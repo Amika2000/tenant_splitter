@@ -182,7 +182,7 @@ if st.button("Process PDFs"):
 
                     writer = PdfWriter()
 
-                    for doc_type in ["statement", "invoice", "receipt", "water"]:
+                    for doc_type in ["statement", "invoice", "water", "receipt"]:
                         for page in docs.get(doc_type, []):
                             writer.add_page(page)
 
