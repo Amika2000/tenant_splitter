@@ -239,7 +239,7 @@ if st.button("Process PDFs"):
                 )
 
                 # Multiple statements PDFs
-                 for statement_file in invoices:
+                for statement_file in statement:
 
                     process_bulk_pdf(
                         statement_file,
