@@ -10,7 +10,7 @@ import tempfile
 
 st.set_page_config(page_title="Tenant PDF Splitter", layout="centered")
 
-st.title("JDJV Individualised Monthly Tenant Invoicing")
+st.title("JDJV Monthly Tenant Invoicing")
 st.write("Upload bulk PDFs and download separated tenant files.")
 
 # -----------------------------
