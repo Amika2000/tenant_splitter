@@ -238,12 +238,15 @@ if st.button("Process PDFs"):
                     lambda: defaultdict(list)
                 )
 
-                # Statements (single bulk PDF)
-                process_bulk_pdf(
-                    statements,
-                    "statement",
-                    tenants
-                )
+                # Multiple statements PDFs
+                 for statement_file in invoices:
+
+                    process_bulk_pdf(
+                        statement_file,
+                        "statement",
+                        tenants
+                    )
+
 
                 # Multiple invoice PDFs
                 for invoice_file in invoices:
