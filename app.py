@@ -19,7 +19,8 @@ st.write("Upload bulk PDFs and download separated tenant files.")
 
 statements = st.file_uploader(
     "Upload Statement PDF(s) (required)",
-    type="pdf"
+    type="pdf",
+    accept_multiple_files=True
 )
 
 invoices = st.file_uploader(
