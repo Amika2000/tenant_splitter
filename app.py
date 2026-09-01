@@ -18,7 +18,7 @@ st.write("Upload bulk PDFs and download separated tenant files.")
 # -----------------------------
 
 statements = st.file_uploader(
-    "Upload Statements PDF (required)",
+    "Upload Statement PDF(s) (required)",
     type="pdf"
 )
 
