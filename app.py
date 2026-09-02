@@ -240,7 +240,7 @@ if st.button("Process PDFs"):
                 )
 
                 # Multiple statements PDFs
-                for statement_file in statement:
+                for statement_file in statements:
 
                     process_bulk_pdf(
                         statement_file,
